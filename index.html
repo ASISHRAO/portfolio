@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon (1).ico">
+    <script src="https://kit.fontawesome.com/e6ee332fc0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+<div class="container">
+    <nav>
+        <img src="image/logo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">PROJECTS</a></li>
+            <li><a href="#portfolio">MY CERTIFACATION</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p><strong>FRONT-END-DEVELOPER</strong></p>
+        <h1>HI,I'AM <span>ASISH RAO</span> <br> FROM VIGNAN ENGINEERING COLLEGE</h1>
+    </div>
+</div>
+</div>  
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/mypic.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <p>Hello everyone i am a frontend developer.<br>
+                    I am a problem solver and i love learning new skills and upgrade my skills<br>
+                    I a student from vignan institute of information technology,pursuing my B.tech (CSE).
+
+                </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('projects')">SUBJECT OF INTREST</p>
+                        <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+                    </div>
+                 
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>KNOWN LANGUAGE</span><br>C LANGUAGE<br>JAVA<br>C++<br>PYTHON</li>
+                            <li><span>MICROSOFT OFFICE</span><br>MS WORD<br>MS EXCEL<br>MS POWER POINT</li>
+                            <li><span>FRONT-END</span><br>HTML<br>CSS<br>BOOTSTRAP<br>JAVASCRIPT<br>REACTJS</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>DATA STRUCTURE</span><br>BASICS</li>
+                            <li><span>DATA BASE MANAGEMENT SYSTEM</span><br>BASICS</li>
+                            <li><span>JAVA</span><br>BASICS</li>
+                            <li><span>MYSQL</span><br>BASICS</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>MRS.MARIADAS SCHOOL</span><br>10TH WITH 93PERCENTAGE</li>
+                            <li><span>ALWARDAS POLYTECHNIC COLLEGE</span><br>DIPLOMA WITH 89PERCENTAGE</li>
+                            <li><span>VIGNAN INSTITUTE OF INFORMATION TECHNOLOGY</span><br>PURSUING </li>
+                        </ul>
+                      </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!---------------services----------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">MY PROJECTS</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-star"></i>
+                <h2>MINI PROJECT</h2>
+                <p>DAILY JOURNAL</p>
+                <a href="#">Learn more</a>
+                
+            </div>
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>PORTFOLIO</h2>
+                <p>MY SELF DETAILS</p>
+                <a href="#">Learn more</a>
+                
+            </div>
+            <div>
+                <i class="fas fa-star"></i>
+                <h2>CLONE</h2>
+                <p>WEBSITE CLONEING</p>
+                <a href="#">Learn more</a>
+                
+            </div>
+        </div>
+
+    </div>
+</div>
+<!---portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">MY CERTIFICATION IN CCNA</h1>  
+        <div class="work-list">
+            <div class="work">
+                <img src="image/ccna-introduction-to-networks (1).png">
+                <div class="layer">
+                    <h3>CCNA-INTERODUCATION-TO-NETWORKS</h3>
+                    <P>BASICS OF NETWORKING</P>
+                    <a href="#"><i class="fa-duotone fa-file-certificate fa-2xs"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/ccna-switching-routing-and-wireless-essentials.1.png">
+                <div class="layer">
+                    <h3>SWITCHING-ROUTING-AND-WIRELESS-ESSENTIALS</h3>
+                    <P>BASICS OF ROUTING</P>
+                    <a href="#"><i class="fa-duotone fa-file-certificate fa-2xs"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/introduction-to-cybersecurity.png">
+                <div class="layer">
+                    <h3>INTRODUCTION-OF-CYBERSECURITY</h3>
+                    <P>BASICS OF CYBERSECURITY</P>
+                    <a href="#"><i class="fa-duotone fa-file-certificate fa-2xs"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">SEE MORE</a>
+     </div>
+    </div>
+</div>
+<!---------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">CONTACT ME</h1>
+                <P><i class="fas fa-paper-plane"></i>CONTACT asishabhi595@gmail.com</P>
+                <P><i class="fas fa-phone-square-alt"></i>63013088557</P>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/vanka-asish-rao-25b06b243"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/-asish-rao-/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.codechef.com/users/asishrao"><h6>CODECHEF</h6></a>
+                </div>
+                <a href="image/Resume.pdf" download class="btn btn2">DOWNLOAD RESUME</a>
+            </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">SUBMIT</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                
+        </div>
+        <div class="copyright">
+            <p>copyright @A. Made by <i class="fas fa-heart"></i>VANKA.ASISHRAO</p> 
+        </div>
+    </div>
+
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+        
+    }
+
+</script>
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxsYOfp3jBE2f_fcC8iqJ5WznQmkkBb9v7VW14a_hi2djTnJ5fkHu_errmlYtiG2Vq-NQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "message sent successfully"
+            setTimeout(function(){
+                mes.innerHTML = " "
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
